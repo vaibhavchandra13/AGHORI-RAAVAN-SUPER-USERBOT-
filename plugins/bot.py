@@ -1,9 +1,7 @@
-# Ultroid - UserBot
-# Copyright (C) 2020 TeamUltroid
-#
-# This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
-# PLease read the GNU Affero General Public License in
-# <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
+# Aghori - UserBot
+# Copyright (C) 2020 TeamAghkri
+# ye maat kang karna brna chod dalega aghori tujhe.
+
 
 """
 ✘ Commands Available
@@ -126,9 +124,9 @@ async def restartbt(ult):
         try:
             await restart(ult)
         except BaseException:
-            await bash("pkill python3 && python3 -m pyUltroid")
+            await bash("pkill python3 && python3 -m pyAghori")
     else:
-        await bash("pkill python3 && python3 -m pyUltroid")
+        await bash("pkill python3 && python3 -m pyAghori")
 
 
 @ultroid_cmd(pattern="shutdown")
@@ -182,7 +180,7 @@ async def heroku_logs(event):
         event.chat_id,
         file="ultroid-heroku.log",
         thumb="resources/extras/logo_rdm.png",
-        caption=f"**Ultroid Heroku Logs.**\nPasted [here]({url}) too!",
+        caption=f"**Aghori Heroku Logs.**\nPasted [here]({url}) too!",
     )
     os.remove("ultroid-heroku.log")
 
