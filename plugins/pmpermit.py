@@ -1,9 +1,6 @@
-# Ultroid - UserBot
-# Copyright (C) 2020 TeamUltroid
-#
-# This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
-# PLease read the GNU Affero General Public License in
-# <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
+# Aghori - UserBot
+# Copyright (C) 2020 TeamAghori
+
 
 """
 ✘ Commands Available -
@@ -44,7 +41,7 @@ LASTMSG = {}
 if Redis("PMPIC"):
     PMPIC = Redis("PMPIC")
 else:
-    PMPIC = "https://telegra.ph/file/031957757a4f6a5191040.jpg"
+    PMPIC = "https://telegra.ph/file/5d6e59afb76b3af3c2758.jpg"
 
 UND = get_string("pmperm_1")
 
