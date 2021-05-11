@@ -1,6 +1,6 @@
 {
     "name": "AGHORI RAAVAN SUPER USERBOT",
-    "description": "Pluggable telegram userbot, made in python using Telethon.",
+    "description": "Pluggable telegram userbot, made in python using Telethon.made by shiv tandav.",
     "logo": "https://telegra.ph/file/e05b9ea497ea43680e771.jpg",
     "keywords": [
         "Telethon",
@@ -9,7 +9,7 @@
         "python",
         "ultroid"
     ],
-    "repository": "",
+    "repository": "https://github.com/SHIVGULSHAN/AGHORIRAAVAN_USERBOT",
     "website": "https://ultroid.tech",
     "success_url": "https://t.me/TheUltroid",
     "stack": "container",
@@ -45,7 +45,7 @@
         },
         "HEROKU_APP_NAME": {
             "description": "Name of your heroku app, given in the first blank on this page. To be added if deploying to heroku ONLY.",
-            "value": "",
+            "value": "not important it's importance only Samrat 😂",
             "required": false
         },
         "LOG_CHANNEL": {
