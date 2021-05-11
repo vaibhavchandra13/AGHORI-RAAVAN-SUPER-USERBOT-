@@ -1,9 +1,6 @@
-# Ultroid - UserBot
-# Copyright (C) 2020 TeamUltroid
+# Aghori - UserBot
+# Copyright (C) 2020 TeamAghori
 #
-# This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
-# PLease read the GNU Affero General Public License in
-# <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
 
 import random
 import re
@@ -52,23 +49,23 @@ async def e(o):
         )
         res = [
             await b.article(
-                title="Ultroid Userbot",
-                url="https://t.me/TeamUltroid",
+                title="Aghori Userbot",
+                url="https://t.me/AGHORI_USERBOT",
                 description="Userbot | Telethon ",
                 text=ALIVEMSG,
                 thumb=InputWebDocument(ULTROID_PIC, 0, "image/jpeg", []),
                 buttons=[
-                    [Button.url(text="Support Group", url="t.me/UltroidSupport")],
+                    [Button.url(text="Support Group", url="https://t.me/AGHORI_USERBOT")],
                     [
                         Button.url(
                             text="Repo",
-                            url="https://github.com/Teamultroid/Ultroid",
+                            url="https://github.com/SHIVGULSHAN/AGHORIRAAVAN_USERBOT",
                         ),
                     ],
                 ],
             ),
         ]
-        await o.answer(res, switch_pm=f"👥 ULTROID PORTAL", switch_pm_param="start")
+        await o.answer(res, switch_pm=f"👥 AGHORI PORTAL", switch_pm_param="start")
 
 
 if asst.me is not None:
@@ -79,7 +76,7 @@ if asst.me is not None:
         builder = event.builder
         result = None
         query = event.text
-        if event.query.user_id in sed and query.startswith("ultd"):
+        if event.query.user_id in sed and query.startswith("Ultd"):
             z = []
             for x in LIST.values():
                 for y in x:
@@ -89,7 +86,7 @@ if asst.me is not None:
             result = builder.article(
                 title="Help Menu",
                 description="Help Menu - UserBot | Telethon ",
-                url="https://t.me/TheUltroid",
+                url="https://t.me/AGHORI_USERBOT",
                 thumb=InputWebDocument(ULTROID_PIC, 0, "image/jpeg", []),
                 text=get_string("inline_4").format(
                     OWNER_NAME,
@@ -423,7 +420,7 @@ if asst.me is not None:
             reply_pop_up_alert = f"{plugin_name} has no detailed help..."
         else:
             reply_pop_up_alert = help_string
-        reply_pop_up_alert += "\n© @TeamUltroid"
+        reply_pop_up_alert += "\n© @AGHORI_USERBOT"
         try:
             if event.query.user_id in sed:
                 await event.edit(
