@@ -1,5 +1,5 @@
-# Ultroid - UserBot
-# Copyright (C) 2020 TeamUltroid
+# Aghori - UserBot
+# Copyright (C) 2020 TeamAghori
 # Sale bc meri kisi file ko kang v maat karna.aghori tells u.
 
 
