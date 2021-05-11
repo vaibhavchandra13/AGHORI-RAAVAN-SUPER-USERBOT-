@@ -1,5 +1,5 @@
-# Ultroid - UserBot
-# Copyright (C) 2020 TeamUltroid
+# Aghori - UserBot
+# Copyright (C) 2020 TeamAghori
 #
 # This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
 # PLease read the GNU Affero General Public License in
@@ -16,7 +16,7 @@ from . import *
 
 # --------------------------------------------------------------------#
 telegraph = Telegraph()
-r = telegraph.create_account(short_name="Ultroid")
+r = telegraph.create_account(short_name="AGHORI")
 auth_url = r["auth_url"]
 # --------------------------------------------------------------------#
 
