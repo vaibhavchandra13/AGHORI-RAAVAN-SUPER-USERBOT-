@@ -25,7 +25,7 @@ ofox = "https://telegra.ph/file/231f0049fcd722824f13b.jpg"
 gugirl = "https://telegra.ph/file/0df54ae4541abca96aa11.jpg"
 yeah = "https://telegra.ph/file/e3c67885e16a194937516.jpg"
 ps = "https://telegra.ph/file/de0b8d9c858c62fae3b6e.jpg"
-ultpic = "https://telegra.ph/file/4136aa1650bc9d4109cc5.jpg"
+ultpic = "https://telegra.ph/file/2cca3828a6185b7919441.jpg"
 
 ofox_api = OrangeFoxAPI()
 
