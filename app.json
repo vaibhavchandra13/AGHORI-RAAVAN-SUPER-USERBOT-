@@ -1,7 +1,7 @@
 {
-    "name": "Ultroid UserBot",
+    "name": "AGHORI RAAVAN SUPER USERBOT",
     "description": "Pluggable telegram userbot, made in python using Telethon.",
-    "logo": "https://telegra.ph/file/031957757a4f6a5191040.jpg",
+    "logo": "https://telegra.ph/file/e05b9ea497ea43680e771.jpg",
     "keywords": [
         "Telethon",
         "telegram",
@@ -9,7 +9,7 @@
         "python",
         "ultroid"
     ],
-    "repository": "https://github.com/TeamUltroid/Ultroid",
+    "repository": "",
     "website": "https://ultroid.tech",
     "success_url": "https://t.me/TheUltroid",
     "stack": "container",
