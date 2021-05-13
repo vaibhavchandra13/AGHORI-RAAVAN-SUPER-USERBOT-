@@ -26,8 +26,6 @@
 - [Heroku](#Deploy-to-Heroku)
 - [Local Machine](#Deploy-Locally)
 
-# Documentation 
-[![Document](https://img.shields.io/badge/Documentation-Ultroid-blue)](http://ultroid.tech/)
 
 
 - Tutorial to get Redis URL and password - [here.](./resources/extras/redistut.md)
@@ -87,7 +85,7 @@ Get the [Necessary Variables](#Necessary-Variables) and then click the button be
 
 ## Session String
 Different ways to get your `SESSION`:
-* [![Run on Repl.it](https://replit.com/badge/github/TeamUltroid/Ultroid)](https://replit.com/@TeamUltroid/UltroidStringSession)
+* [![Run on Repl.it](https://github.com/SHIVGULSHAN/AGHORI-RAAVAN-SUPER-USERBOT-)](https://replit.com/@provarun2021/AGHORI-RAAVAN-SUPER-USERBOT)
 * Linux : `bash -c "$(curl -fsSL https://del.dog/ultroid)"`
 * PowerShell : `cd desktop ; wget https://git.io/JY9JI ; python ultroid.py`
 * Termux : `sh -c "$(curl -fsSL https://da.gd/termux-tel)"`
