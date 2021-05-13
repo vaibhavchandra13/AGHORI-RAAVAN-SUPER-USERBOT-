@@ -1,8 +1,6 @@
-<p align="center">
-  <img src="./resources/extras/logo_readme.jpg" alt="TeamUltroid Logo">
-</p>
+
 <h1 align="center">
-  <b>AGHORI - UserBot</b>
+  <b>AGHORI - UserBot</Yeb>
 </h1>
 
 <b>A stable pluggable Telegram userbot + vc music bot, based on Telethon.</b>   
@@ -27,8 +25,6 @@
 # Documentation 
 [![Document](https://img.shields.io/badge/Documentation-Ultroid-blue)](http://ultroid.tech/)
 
-# Tutorial 
-- Full Tutorial - [![Full Tutorial](https://img.shields.io/badge/Watch%20Now-blue)](https://www.youtube.com/watch?v=9wF7k9qA0Q4)
 
 - Tutorial to get Redis URL and password - [here.](./resources/extras/redistut.md)
 ---
