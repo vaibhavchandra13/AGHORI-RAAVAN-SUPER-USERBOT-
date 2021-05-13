@@ -1,4 +1,8 @@
-
+<<h2 align="center"><b>Owner: <a href="https://t.me/DEADSHOT1202">AGHORI TANDAV</a></b></h2>
+<br>h2 align="center"><b>co-Owner: <a href="https://t.me/owner_detective_varun">AGHORI VARUN SHIV TANDAV</a></b></h2>
+<br>
+<p align="center"><a href="https://t.me/TEAM_AGHORI"><img src="https://telegra.ph/file/e05b9ea497ea43680e771.jpg"></a></p> 
+</p>
 <h1 align="center">
   <b>AGHORI - UserBot</Yeb>
 </h1>
