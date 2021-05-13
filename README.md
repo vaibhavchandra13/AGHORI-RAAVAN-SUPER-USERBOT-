@@ -40,38 +40,7 @@ Get the [Necessary Variables](#Necessary-Variables) and then click the button be
 - [Traditional Method](#local-deploy---traditional-method)
 - [Easy Method](#local-deploy---easy-method)
 
-### Local Deploy - Easy Method
-- Linux - `bash -c "$(curl -fsSL https://git.io/JY9UM)"`
-- Windows - `cd desktop ; wget https://del.dog/raw/ultroid-termux -o locals.py ; python locals.py`
-- Termux - `sh -c "$(curl -fsSL https://del.dog/raw/ultroid-termux-deploy)"`
 
-### Local Deploy - Traditional Method
-- Get your [Necessary Variables](#Necessary-Variables)
-- Clone the repository: <br />
-`git clone https://github.com/TeamUltroid/Ultroid.git`
-- Go to the cloned folder: <br />
-`cd Ultroid`
-- Create a virtual env:   <br />
-`virtualenv -p /usr/bin/python3 venv`
-`. ./venv/bin/activate`
-- Install the requirements:   <br />
-`pip(3) install -U -r requirements.txt`
-- Generate your `SESSION`:
-  - For Linux users:
-    `bash sessiongen`
-     or
-    `bash -c "$(curl -fsSL https://del.dog/ultroid)"`
-  - For Termux users:
-    `sh -c "$(curl -fsSL https://da.gd/termux-tel)"`
-  - For Windows Users:
-    `cd desktop ; wget https://del.dog/ultroid -o ultroid.py ; python ultroid.py`
-- Fill your details in a `.env` file, as given in [`.env.sample`](https://github.com/TeamUltroid/Ultroid/blob/main/.env.sample).
-(You can either edit and rename the file or make a new file named `.env`.)
-- Run the bot:
-  - Linux Users:
-   `bash resources/startup/startup.sh`
-  - Windows Users:
-    `python(3) -m pyUltroid`
 
 ## Necessary Variables
 - `API_ID` - Your API_ID from [my.telegram.org](https://my.telegram.org/)
